@@ -1,4 +1,5 @@
-var katzDeli = [];
+  var katzDeli = [];
+  var katzDeliline = [];
 
  function takeANumber(katzDeli, name){
 
@@ -18,7 +19,6 @@ function nowServing(katzDeli) {
 }
 
 function currentLine(katzDeli){
-  var katzDeliline = [];
 
   if (katzDeli.length === 0){
     return `The line is currently empty.`;
